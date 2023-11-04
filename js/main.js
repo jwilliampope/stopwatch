@@ -6,10 +6,6 @@ const reset_btn = document.getElementById("reset")
 let seconds = 0
 let interval = null
 
-start_btn.addEventListener("click", start)
-stop_btn.addEventListener("click", stop)
-reset_btn.addEventListener("click", reset)
-
 // Event listeners
 
 start_btn.addEventListener("click", start)
